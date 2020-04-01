@@ -1,0 +1,2 @@
+rootProject.name='OAU1'
+include ':app'

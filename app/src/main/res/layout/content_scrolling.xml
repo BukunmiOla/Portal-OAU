@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oau_matric"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/lay_out">
+
+            <TextView
+                style="@style/tag"
+                android:text="@string/ePortal_home_tag"
+                android:textColor="@color/button_text" />
+        </LinearLayout>
+        <TextView
+            style="@style/content"
+            android:text="@string/ePortal_home"
+             />
+
+        <LinearLayout
+            style="@style/lay_out">
+
+            <ImageView
+                style="@style/img_new"
+                />
+
+            <TextView
+                style="@style/tag"
+                android:text="@string/ePortal_access_tag"/>
+        </LinearLayout>
+        <TextView
+            style="@style/content"
+            android:text="@string/ePortal_access"
+            />
+
+        <LinearLayout
+            style="@style/lay_out">
+
+            <ImageView
+                style="@style/img_new"
+                />
+
+            <TextView
+                style="@style/tag"
+                android:text="@string/resumption_tag"/>
+        </LinearLayout>
+        <TextView
+            style="@style/content"
+            android:text="@string/resumption"
+            />
+
+        <LinearLayout
+            style="@style/lay_out">
+
+            <ImageView
+                style="@style/img_new"
+                />
+
+            <TextView
+                style="@style/tag"
+                android:text="@string/accommodation_tag"/>
+        </LinearLayout>
+        <TextView
+            style="@style/content"
+            android:text="@string/accommodation"
+                />
+
+        <LinearLayout
+            style="@style/lay_out">
+
+            <TextView
+                style="@style/tag"
+                android:text="@string/enquiries_tag"
+                android:textColor="@color/button_text"/>
+        </LinearLayout>
+        <TextView
+            style="@style/content"
+            android:text="@string/enquiries"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/footer"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/welcome"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
